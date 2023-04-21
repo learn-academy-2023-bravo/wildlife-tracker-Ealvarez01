@@ -1,0 +1,2 @@
+class SightingReport < ApplicationRecord
+end
