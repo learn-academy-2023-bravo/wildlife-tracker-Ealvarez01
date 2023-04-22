@@ -33,9 +33,9 @@ class SightingsController < ApplicationController
   def destroy
     sighting = Sighting.find(params[:id])
     if sighting.destroy
-      render json: sightings
+      render json: sighting
     else
-      render json: sightings.errors
+      render json: sighting.errors
     end
   end
 
